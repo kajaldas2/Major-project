@@ -14,7 +14,7 @@ body {
 
 /* Navbar */
 .navbar {
-    height: 5rem;
+    height: 6rem;
     background-color: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
     justify-content:space-between;

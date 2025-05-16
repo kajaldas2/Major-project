@@ -10,15 +10,19 @@
     color: #fff;
     
   }
+  .navbar {
+    height: 7rem;
+  }
 
   .search-btn i {
     display: inline;
     margin-right: 0.5rem;
+    height: 200px;
   }
 
   .search-inp {
+    padding: 0.5rem 5rem;
     border-radius: 25px;
-    padding: 0.5rem 3rem 0.5rem 3rem;
     font-size: 1rem;
   }
 </style>
@@ -39,7 +43,7 @@
 
       <div class="navbar-nav ms-auto">
         <form class="d-flex" role="search">
-          <input class="form-control me-2 search-inp" type="search" placeholder="Search destinations" aria-label="Search"/>
+          <input class="form-control me-2 search-inp" type="search" placeholder="Search destinations"/>
           <button class="btn search-btn" type="submit"><i class="fa-solid fa-magnifying-glass"></i>Search</button>
         </form>
       </div>

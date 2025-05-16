@@ -3,6 +3,7 @@ const Listing = require("../models/listing");
 const Review = require("../models/review");
 
 
+
 module.exports.createReview = async (req, res) => {
     console.log("Review comment:", req.body.review.comment); 
     
